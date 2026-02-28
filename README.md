@@ -1,5 +1,8 @@
 # Novus-Core1
 24 bit cpu made in logisim.
+
+- Open file 24bit.circ with logisim to enter build
+
 - Instruction set found at inst.md
 # WARNING
 - Before running, make sure to load file "24bit instruction set" into rom
