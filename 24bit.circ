@@ -40,9 +40,6 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="24"/>
     </tool>
-    <tool name="Pull Resistor">
-      <a name="facing" val="east"/>
-    </tool>
   </lib>
   <lib desc="#Gates" name="1">
     <tool name="Controlled Buffer">
@@ -131,6 +128,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="24"/>
     </comp>
+    <comp lib="0" loc="(1580,1410)" name="Pull Resistor"/>
     <comp lib="0" loc="(1590,1410)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="fanout" val="24"/>
@@ -1014,7 +1012,8 @@
     <wire from="(1310,1310)" to="(1310,1330)"/>
     <wire from="(1310,1310)" to="(1350,1310)"/>
     <wire from="(1310,1330)" to="(1320,1330)"/>
-    <wire from="(1560,1410)" to="(1590,1410)"/>
+    <wire from="(1560,1410)" to="(1580,1410)"/>
+    <wire from="(1580,1410)" to="(1590,1410)"/>
     <wire from="(1630,1250)" to="(1830,1250)"/>
     <wire from="(1630,1370)" to="(1670,1370)"/>
     <wire from="(1630,1450)" to="(1670,1450)"/>
