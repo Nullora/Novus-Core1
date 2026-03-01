@@ -2,7 +2,7 @@
 A cool 24bit cpu made in Logisim.
 # Installation
 - Just clone the repo with "git repo https://github.com/Nullora/Novus-Core1" and open the .circ file with Logisim.
-- Instruction set found at "inst.md". Program some cool stuff and send it to me, I'd love to check it out!
+- Instruction set found at "inst.md" or in Wiki. Program some cool stuff and send it to me, I'd love to check it out!
 # Usage
 - Load your program into ram.
 - Turn on inputs "TURN_ON" "EnableClock" "UNLOCK" to start running program.
