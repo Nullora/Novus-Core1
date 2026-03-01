@@ -11,7 +11,8 @@ A cool 24bit cpu made in Logisim.
 # Why I made this
 Making this cpu helped me understand how instructions flow, how data moves, and how a computer “thinks.”
 If you’re curious about hardware, this is a great playground! Edit and use it however you please.
-<img width="980" height="628" alt="image" src="https://github.com/user-attachments/assets/2dbbe08f-8fb3-4fda-8668-369d3ff7fb1b" />
+
+<img width="983" height="599" alt="image" src="https://github.com/user-attachments/assets/300e4d2c-ab74-46c0-80da-60de39d43120" />
 
 # Warning
 - This was made in Logisim 4.0.0 and only tested on that version, I don't know how it will perform on other versions.
