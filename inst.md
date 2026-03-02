@@ -30,4 +30,3 @@ instruction structure:
  - reg|0f = jump if equal flag is 1
  - reg|10 = jump if NOT equal
  - reg|11 = from register to rgb monitor
-Maypretend was here
