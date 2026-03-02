@@ -1,5 +1,6 @@
 Write = write TO COMPONENT
 Read = read TO BUS
+Test Test
 24 bit instruction:
 - OPCODE= 8
 - A = 4
