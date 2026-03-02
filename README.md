@@ -23,3 +23,4 @@ If you’re curious about hardware, this is a great playground! Edit and use it 
 - Added new instruction to read from desired register to RGB monitor.
 # Helpers
 - Maypretend
+## MADE BY NULLORA FOR NOVUS
