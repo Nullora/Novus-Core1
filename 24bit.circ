@@ -375,6 +375,9 @@
       <a name="out_width" val="24"/>
       <a name="type" val="zero"/>
     </comp>
+    <comp lib="0" loc="(2240,1140)" name="Pull Resistor">
+      <a name="facing" val="east"/>
+    </comp>
     <comp lib="0" loc="(2240,1760)" name="Tunnel">
       <a name="label" val="load"/>
       <a name="labelfont" val="SansSerif bold 10"/>

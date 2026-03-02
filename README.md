@@ -21,6 +21,7 @@ If you’re curious about hardware, this is a great playground! Edit and use it 
 
 # Updates
 - Added new instruction to read from desired register to RGB monitor.
+- To come: full gpu.
 # Helpers
 - Maypretend
 - droidcom (apr1citi)
