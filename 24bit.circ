@@ -812,13 +812,13 @@
     <comp lib="4" loc="(2490,2470)" name="Counter">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="X"/>
-      <a name="max" val="0x20"/>
+      <a name="max" val="0x3f"/>
       <a name="width" val="6"/>
     </comp>
     <comp lib="4" loc="(2490,2710)" name="Counter">
       <a name="appearance" val="logisim_evolution"/>
       <a name="label" val="Y"/>
-      <a name="max" val="0x20"/>
+      <a name="max" val="0x3f"/>
       <a name="width" val="6"/>
     </comp>
     <comp lib="4" loc="(2750,1920)" name="RAM">
