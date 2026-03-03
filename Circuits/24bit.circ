@@ -730,6 +730,10 @@
       <a name="label" val="ram_r"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="0" loc="(3020,2300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="TurnOnMonitor"/>
+    </comp>
     <comp lib="0" loc="(3030,1420)" name="Tunnel">
       <a name="label" val="ZERO"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -739,9 +743,6 @@
       <a name="label" val="cmd"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3030,2270)" name="Pin">
-      <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(3070,2070)" name="Tunnel">
       <a name="label" val="clock_enable"/>
@@ -911,7 +912,9 @@
     <comp lib="5" loc="(2500,1080)" name="LED">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="5" loc="(2500,2460)" name="DipSwitch"/>
+    <comp lib="5" loc="(2500,2460)" name="DipSwitch">
+      <a name="label" val="COLOR"/>
+    </comp>
     <comp lib="5" loc="(2510,1120)" name="LED">
       <a name="color" val="#f0ed00"/>
       <a name="facing" val="south"/>
@@ -1323,13 +1326,13 @@
     <wire from="(3010,1820)" to="(3010,1830)"/>
     <wire from="(3010,1820)" to="(3020,1820)"/>
     <wire from="(3020,1540)" to="(3020,1610)"/>
+    <wire from="(3020,2300)" to="(3040,2300)"/>
     <wire from="(3030,1540)" to="(3030,1600)"/>
     <wire from="(3030,1960)" to="(3040,1960)"/>
     <wire from="(3030,2220)" to="(3030,2230)"/>
-    <wire from="(3030,2270)" to="(3040,2270)"/>
     <wire from="(3040,1540)" to="(3040,1590)"/>
     <wire from="(3040,1920)" to="(3040,1960)"/>
-    <wire from="(3040,2220)" to="(3040,2270)"/>
+    <wire from="(3040,2220)" to="(3040,2300)"/>
     <wire from="(3050,1540)" to="(3050,1580)"/>
     <wire from="(3060,1540)" to="(3060,1570)"/>
     <wire from="(3060,1880)" to="(3160,1880)"/>
