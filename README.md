@@ -23,6 +23,6 @@ If you’re curious about hardware, this is a great playground! Edit and use it 
 # Updates
 - Added GPU parts. (Not programmable yet)
 # Helpers
-- [Maypretend] (https://github.com/maypretend)
-- [droidcom] (https://github.com/droidcom)
+- [maypretend](https://github.com/maypretend)
+- [droidcom](https://github.com/droidcom)
 ## MADE BY NULLORA FOR NOVUS
