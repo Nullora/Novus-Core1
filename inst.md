@@ -29,3 +29,4 @@ instruction structure:
  - reg|0e = register to monitor
  - reg|0f = jump if equal flag is 1
  - reg|10 = jump if NOT equal
+ - XY2|reg(XY1)|11 = Draw line to gpu
