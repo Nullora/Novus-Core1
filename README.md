@@ -18,10 +18,10 @@ If you’re curious about hardware, this is a great playground! Edit and use it 
 - This was made in Logisim 4.0.0 and only tested on that version, I don't know how it will perform on other versions.
 - Load the file "24bit instruction set" into rom if not already loaded, otherwise nothing will work.
 - "Jump if not equal" command might not work, I haven't honestly tested it.
+- GPU is not programmable as of right now, stick to TTY till i figure out how to hook it all up, or fix it and open a pull request!
 
 # Updates
-- Added new instruction to read from desired register to RGB monitor.
-- To come: full gpu.
+- Added GPU parts. (Not programmable yet)
 # Helpers
 - Maypretend
 - droidcom (apr1citi)
