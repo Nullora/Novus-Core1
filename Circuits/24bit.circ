@@ -89,7 +89,6 @@
     </tool>
     <sep/>
     <tool lib="1" name="NOT Gate">
-      <a name="facing" val="west"/>
       <a name="size" val="20"/>
     </tool>
     <tool lib="1" name="AND Gate">
@@ -378,14 +377,6 @@
       <a name="label" val="load"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
-    <comp lib="0" loc="(2110,1530)" name="Tunnel">
-      <a name="label" val="draw"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2110,1550)" name="Tunnel">
-      <a name="label" val="GPU_WRITE"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
     <comp lib="0" loc="(2130,1610)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="facing" val="west"/>
@@ -412,6 +403,14 @@
     </comp>
     <comp lib="0" loc="(2240,1760)" name="Tunnel">
       <a name="label" val="load"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(2340,1480)" name="Tunnel">
+      <a name="label" val="draw"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(2350,1540)" name="Tunnel">
+      <a name="label" val="GPU_WRITE"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(2380,2420)" name="Splitter">
@@ -788,6 +787,12 @@
     <comp lib="1" loc="(2240,1740)" name="Controlled Buffer">
       <a name="width" val="24"/>
     </comp>
+    <comp lib="1" loc="(2360,1530)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(2370,1590)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
     <comp lib="1" loc="(2850,1210)" name="OR Gate">
       <a name="facing" val="west"/>
       <a name="inputs" val="3"/>
@@ -843,6 +848,12 @@
 8000 80000 237*0 1
 </a>
       <a name="dataWidth" val="24"/>
+    </comp>
+    <comp lib="4" loc="(2340,1530)" name="D Flip-Flop">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="4" loc="(2350,1590)" name="D Flip-Flop">
+      <a name="appearance" val="classic"/>
     </comp>
     <comp lib="4" loc="(2750,1920)" name="RAM">
       <a name="addrWidth" val="12"/>
@@ -1099,6 +1110,8 @@
     <wire from="(2070,1390)" to="(2090,1390)"/>
     <wire from="(2080,1110)" to="(2080,1180)"/>
     <wire from="(2080,1110)" to="(2120,1110)"/>
+    <wire from="(2110,1530)" to="(2300,1530)"/>
+    <wire from="(2110,1550)" to="(2280,1550)"/>
     <wire from="(2120,940)" to="(2120,1110)"/>
     <wire from="(2130,1740)" to="(2180,1740)"/>
     <wire from="(2180,1740)" to="(2180,1910)"/>
@@ -1107,6 +1120,18 @@
     <wire from="(2230,1760)" to="(2240,1760)"/>
     <wire from="(2240,1140)" to="(2450,1140)"/>
     <wire from="(2240,1740)" to="(2450,1740)"/>
+    <wire from="(2280,1550)" to="(2280,1590)"/>
+    <wire from="(2280,1590)" to="(2310,1590)"/>
+    <wire from="(2290,1510)" to="(2290,1550)"/>
+    <wire from="(2290,1510)" to="(2360,1510)"/>
+    <wire from="(2290,1550)" to="(2300,1550)"/>
+    <wire from="(2300,1570)" to="(2300,1610)"/>
+    <wire from="(2300,1570)" to="(2370,1570)"/>
+    <wire from="(2300,1610)" to="(2310,1610)"/>
+    <wire from="(2340,1480)" to="(2340,1530)"/>
+    <wire from="(2350,1540)" to="(2350,1590)"/>
+    <wire from="(2360,1510)" to="(2360,1530)"/>
+    <wire from="(2370,1570)" to="(2370,1590)"/>
     <wire from="(2400,2410)" to="(2520,2410)"/>
     <wire from="(2410,2210)" to="(2410,2280)"/>
     <wire from="(2410,2280)" to="(2980,2280)"/>
@@ -1121,11 +1146,8 @@
     <wire from="(2450,2080)" to="(2450,2210)"/>
     <wire from="(2450,2080)" to="(3000,2080)"/>
     <wire from="(2450,2210)" to="(2490,2210)"/>
-    <wire from="(2490,2330)" to="(2490,2360)"/>
-    <wire from="(2490,2330)" to="(2530,2330)"/>
-    <wire from="(2490,2360)" to="(2490,2380)"/>
-    <wire from="(2490,2360)" to="(2510,2360)"/>
-    <wire from="(2490,2380)" to="(2510,2380)"/>
+    <wire from="(2450,2360)" to="(2510,2360)"/>
+    <wire from="(2450,2380)" to="(2510,2380)"/>
     <wire from="(2510,2200)" to="(2750,2200)"/>
     <wire from="(2520,2320)" to="(2520,2350)"/>
     <wire from="(2520,2320)" to="(2540,2320)"/>
