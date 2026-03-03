@@ -1,7 +1,7 @@
 # Novus-Core1
 A cool 24bit cpu made in Logisim.
 # Installation
-- Just clone the repo with "git repo https://github.com/Nullora/Novus-Core1" and open the .circ file with Logisim.
+- Just clone the repo with "git repo https://github.com/Nullora/Novus-Core1" and open the .circ file (found in Circuits/24bit.circ) with [Logisim](https://github.com/logisim-evolution/logisim-evolution) 
 - Instruction set found at "inst.md" or in Wiki. Program some cool stuff and send it to me, I'd love to check it out!
 # Usage
 - Load your program into ram.
@@ -12,16 +12,15 @@ A cool 24bit cpu made in Logisim.
 Making this cpu helped me understand how instructions flow, how data moves, and how a computer “thinks.”
 If you’re curious about hardware, this is a great playground! Edit and use it however you please.
 
-<img width="983" height="599" alt="image" src="https://github.com/user-attachments/assets/300e4d2c-ab74-46c0-80da-60de39d43120" />
+<img width="920" height="540" alt="image" src="https://github.com/user-attachments/assets/2f65b8bc-897f-4d4a-8759-90c6ab431816" />
 
 # Warning
 - This was made in Logisim 4.0.0 and only tested on that version, I don't know how it will perform on other versions.
 - Load the file "24bit instruction set" into rom if not already loaded, otherwise nothing will work.
 - "Jump if not equal" command might not work, I haven't honestly tested it.
-- GPU is not programmable as of right now, stick to TTY till i figure out how to hook it all up, or fix it and open a pull request!
 
 # Updates
-- Added GPU parts. (Not programmable yet)
+- Added GPU. (Programmable, but a hassle to program."
 # Helpers
 - [maypretend](https://github.com/maypretend)
 - [droidcom](https://github.com/droidcom)
