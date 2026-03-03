@@ -5,9 +5,14 @@ A cool 24bit cpu made in Logisim.
 - Instruction set found at "inst.md" or in Wiki. Program some cool stuff and send it to me, I'd love to check it out!
 # Usage
 - Load your program into ram.
-- Turn on inputs "TURN_ON" "EnableClock" "UNLOCK" to start running program.
+- Turn on inputs "TURN_ON" "EnableClock" "UNLOCK" "TurnOnMonitor" to start running program.
 - "RESET" to reset memory + counter.
 - "MAN" for manual clock ticks.
+- You change GPU write color with the "COLOR" DIP switch.
+- You can also use a PreMade program. Just go into "Documents/testProg" and load a file into program ram.
+
+<img width="957" height="839" alt="image" src="https://github.com/user-attachments/assets/d06e82aa-ce74-4b11-b835-944a51ec9b4e" />
+
 # Why I made this
 Making this cpu helped me understand how instructions flow, how data moves, and how a computer “thinks.”
 If you’re curious about hardware, this is a great playground! Edit and use it however you please.
